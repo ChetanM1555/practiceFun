@@ -9,11 +9,11 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get homeTitle => 'Home ayyyyy';
+  String get homeTitle => 'Home';
 
   @override
-  String get settings => 'settings';
+  String get settings => 'Settings';
 
   @override
-  String get stats => 'stats';
+  String get stats => 'Stats';
 }

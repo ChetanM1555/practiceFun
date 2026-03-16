@@ -96,19 +96,19 @@ abstract class AppLocalizations {
   /// No description provided for @homeTitle.
   ///
   /// In en, this message translates to:
-  /// **'Home ayyyyy'**
+  /// **'Home'**
   String get homeTitle;
 
   /// No description provided for @settings.
   ///
   /// In en, this message translates to:
-  /// **'settings'**
+  /// **'Settings'**
   String get settings;
 
   /// No description provided for @stats.
   ///
   /// In en, this message translates to:
-  /// **'stats'**
+  /// **'Stats'**
   String get stats;
 }
 

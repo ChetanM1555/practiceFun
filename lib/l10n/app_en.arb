@@ -1,6 +1,6 @@
 {
   "@@locale": "en",
-  "homeTitle": "Home ayyyyy",
-  "settings": "settings",
-  "stats": "stats"
+  "homeTitle": "Home",
+  "settings": "Settings",
+  "stats": "Stats"
 }
