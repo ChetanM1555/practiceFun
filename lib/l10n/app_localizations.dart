@@ -99,11 +99,47 @@ abstract class AppLocalizations {
   /// **'Home'**
   String get homeTitle;
 
-  /// No description provided for @settings.
+  /// No description provided for @settingsTitle.
   ///
   /// In en, this message translates to:
   /// **'Settings'**
-  String get settings;
+  String get settingsTitle;
+
+  /// No description provided for @settingsLanguage.
+  ///
+  /// In en, this message translates to:
+  /// **'Language'**
+  String get settingsLanguage;
+
+  /// No description provided for @settingsNotifications.
+  ///
+  /// In en, this message translates to:
+  /// **'Notifications'**
+  String get settingsNotifications;
+
+  /// No description provided for @settingsPermissions.
+  ///
+  /// In en, this message translates to:
+  /// **'Permissions'**
+  String get settingsPermissions;
+
+  /// No description provided for @settingsUserInfo.
+  ///
+  /// In en, this message translates to:
+  /// **'User Info'**
+  String get settingsUserInfo;
+
+  /// No description provided for @notificationVibration.
+  ///
+  /// In en, this message translates to:
+  /// **'Vibration'**
+  String get notificationVibration;
+
+  /// No description provided for @notificationTone.
+  ///
+  /// In en, this message translates to:
+  /// **'Notification Tone'**
+  String get notificationTone;
 
   /// No description provided for @stats.
   ///

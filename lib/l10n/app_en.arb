@@ -1,6 +1,15 @@
 {
   "@@locale": "en",
   "homeTitle": "Home",
-  "settings": "Settings",
+
+  "settingsTitle": "Settings",
+  "settingsLanguage": "Language",
+  "settingsNotifications": "Notifications",
+  "settingsPermissions": "Permissions",
+  "settingsUserInfo": "User Info",
+
+  "notificationVibration": "Vibration",
+  "notificationTone": "Notification Tone",
+
   "stats": "Stats"
 }

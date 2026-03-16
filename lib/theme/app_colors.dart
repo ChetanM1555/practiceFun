@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppColors {
   // Backgrounds
-  static const background = Color.fromRGBO(2, 10, 42, 1); // App main background
+  static const background = Color.fromRGBO(38, 41, 54, 1); // App main background
   static const scaffold = Colors.white;         // Scaffold background
 
   // Buttons

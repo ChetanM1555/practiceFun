@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../routes/app_routes.dart';
 import '../widgets/setting_tile.dart';
 import '../theme/text_styles.dart';
 import '../l10n/app_localizations.dart';
@@ -18,7 +19,7 @@ class SettingsScreen extends StatelessWidget {
 
               /// Page title
               Text(
-                AppLocalizations.of(context)!.homeTitle,
+                AppLocalizations.of(context)!.settingsTitle,
                 style: AppTextStyles.heading1,
               ),
 
@@ -26,34 +27,34 @@ class SettingsScreen extends StatelessWidget {
 
               /// Settings options
               SettingsTile(
-                title: "User Info",
+                title: AppLocalizations.of(context)!.settingsUserInfo,
                 icon: Icons.person,
                 onTap: () {
-                  Navigator.pushNamed(context, "/user-info");
+                  Navigator.pushNamed(context, AppRoutes.userInfo);
                 },
               ),
 
               SettingsTile(
-                title: "Language",
+                title: AppLocalizations.of(context)!.settingsLanguage,
                 icon: Icons.language,
                 onTap: () {
-                  Navigator.pushNamed(context, "/language");
+                  Navigator.pushNamed(context, AppRoutes.language);
                 },
               ),
 
               SettingsTile(
-                title: "Permissions",
+                title: AppLocalizations.of(context)!.settingsPermissions,
                 icon: Icons.lock,
                 onTap: () {
-                  Navigator.pushNamed(context, "/permissions");
+                  Navigator.pushNamed(context, AppRoutes.permissions);
                 },
               ),
 
               SettingsTile(
-                title: "Notifications",
+                title: AppLocalizations.of(context)!.settingsNotifications,
                 icon: Icons.notifications,
                 onTap: () {
-                  Navigator.pushNamed(context, "/notifications");
+                  Navigator.pushNamed(context, AppRoutes.notifications);
                 },
               ),
             ],

@@ -12,7 +12,25 @@ class AppLocalizationsEn extends AppLocalizations {
   String get homeTitle => 'Home';
 
   @override
-  String get settings => 'Settings';
+  String get settingsTitle => 'Settings';
+
+  @override
+  String get settingsLanguage => 'Language';
+
+  @override
+  String get settingsNotifications => 'Notifications';
+
+  @override
+  String get settingsPermissions => 'Permissions';
+
+  @override
+  String get settingsUserInfo => 'User Info';
+
+  @override
+  String get notificationVibration => 'Vibration';
+
+  @override
+  String get notificationTone => 'Notification Tone';
 
   @override
   String get stats => 'Stats';
