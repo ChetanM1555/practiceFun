@@ -6,8 +6,8 @@ class AppColors {
   static const scaffold = Colors.white;         // Scaffold background
 
   // Buttons
-  static const primary = Color(0xFF4CAF50);    // Main button color
-  static const secondary = Color(0xFF81C784);  // Secondary buttons
+  static const primary = Color(0xFF00AAA3);    // Main button color
+  static const secondary = Color.fromARGB(255, 51, 80, 79);  // Secondary buttons
 
   static const navbarColor = Color(0xFF00AAA3);
   static const navbarColorUnselected = Color.fromARGB(255, 0, 97, 94);

@@ -3,6 +3,7 @@ import '../../l10n/app_localizations.dart';
 import '../../routes/app_routes.dart';
 import '../../theme/text_styles.dart';
 import '../../widgets/setting_tile.dart';
+import '../../widgets/vibration_tile.dart';
 
 
 class NotificationsScreen extends StatelessWidget {
@@ -34,11 +35,8 @@ class NotificationsScreen extends StatelessWidget {
                 },
               ),
 
-              SettingsTile(
+              VibrationTile(
                 title: AppLocalizations.of(context)!.notificationVibration,
-                onTap: () {
-
-                },
               ),
             ],
           ),
