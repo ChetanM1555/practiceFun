@@ -3,8 +3,8 @@ import 'app_colors.dart';
 import 'text_styles.dart';
 
 class AppTheme {
-  static ThemeData lightTheme = ThemeData(
-    scaffoldBackgroundColor: AppColors.scaffold,
+  static ThemeData darkTheme = ThemeData(
+    scaffoldBackgroundColor: AppColors.background, // 👈 your background color
     primaryColor: AppColors.primary,
     colorScheme: ColorScheme.fromSeed(
       seedColor: AppColors.primary,
